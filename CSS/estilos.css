@@ -2,24 +2,63 @@
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
+    color: beige;
 }
 
 body{
     background: radial-gradient(circle, rgb(21, 202, 247), rgb(0, 255, 85));
 }
 
-.main-container{
+.html-container{
     width: 70%;
     margin: auto;
-    border: 2px solid #117833;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    background: linear-gradient(to right, #74ff23, #979911, rgb(198, 18, 204));
+    box-sizing: content-box;
 }
 
-.container{
+.main-container{
     padding: 5px;
-    margin: auto;
+}
+
+.header{
+    border-radius: 5px;
+    margin-right: -10px;
+    margin-left: -10px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #ff4423, #119992, rgb(240, 44, 175));
 }
 
 h1{
+    color: rgb(0, 255, 85);
+}
+
+h2{
    text-align: center;
+<<<<<<< HEAD
  }
+=======
+   font-size: 1.3em;
+   color: rgb(0, 255, 85);
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(1, 69, 129);
+}
+a:hover{
+    color: rgb(0, 255, 85);
+}
+
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 255, 85);
+}
+>>>>>>> header
