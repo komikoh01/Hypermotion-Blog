@@ -8,3 +8,18 @@ body{
     background: radial-gradient(circle, rgb(21, 202, 247), rgb(0, 255, 85));
 }
 
+.main-container{
+    width: 70%;
+    margin: auto;
+    border: 2px solid #117833;
+    padding: 10px;
+}
+
+.container{
+    padding: 5px;
+    margin: auto;
+}
+
+h1{
+   text-align: center;
+}
