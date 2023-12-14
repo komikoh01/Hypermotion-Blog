@@ -14,42 +14,45 @@ body{
     margin: auto;
     border-radius: 5px;
     padding: 0px 10px 0px 10px;
-    background: linear-gradient(to right, #74ff23, #979911, rgb(198, 18, 204));
+    background: linear-gradient(to right, #45bb00, #06ccd3, rgb(198, 18, 204));
     box-sizing: content-box;
 }
 
 .main-container{
     padding: 5px;
+    height: 300px;
 }
 
 .header{
+    font-size: 1.3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 5px;
     margin-right: -10px;
     margin-left: -10px;
-    height: 100px;
+    padding: 3px;
     text-align: center;
     margin-bottom: 20px;
-    background: linear-gradient(to right, #ff4423, #119992, rgb(240, 44, 175));
+    background: linear-gradient(to right, #ff4423, #53d4ce, rgb(240, 44, 175));
 }
 
 h1{
-    color: rgb(0, 255, 85);
+    color: rgb(255, 139, 183);
 }
 
 h2{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    text-align: center;
    font-size: 1.3em;
-   color: rgb(0, 255, 85);
+   color:rgb(218, 38, 38);
 }
 
 a{
     text-decoration: none;
     padding: 10px;
-    color: rgb(1, 69, 129);
+    color: rgb(189, 255, 9);
 }
 a:hover{
-    color: rgb(0, 255, 85);
+    color: rgb(255, 0, 0);
 }
 
 
@@ -57,5 +60,5 @@ a:hover{
     padding: 10px;
     text-align: center;
     margin-top: 30px;
-    color: rgb(0, 255, 85);
+    color: rgb(189, 255, 9);
 }
