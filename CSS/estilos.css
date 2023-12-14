@@ -46,16 +46,25 @@ h2{
 a{
     text-decoration: none;
     padding: 10px;
-    color: rgb(1, 69, 129);
+    color: rgb(0, 0, 0);
 }
 a:hover{
-    color: rgb(0, 255, 85);
+    color: rgb(255, 255, 255);
 }
 
 
 .footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top: 2px solid #2af;
     padding: 10px;
     text-align: center;
     margin-top: 30px;
-    color: rgb(0, 255, 85);
+    color: rgb(231, 0, 0);
+    font-weight: 800;
+}
+
+.footer > h2 {
+    color: rgb(231, 0, 0);
 }
